@@ -31,8 +31,8 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Install Node.js dependencies
-        run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
+      # - name: Install Node.js dependencies
+      #   run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
 
       - name: Build with Hugo
         env:
@@ -40,8 +40,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --gc         
+          hugo --gc         
 
       # We save the result as an artificat so we can use it in the next job
       - name: Upload artifact
