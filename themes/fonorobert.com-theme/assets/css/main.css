@@ -1,0 +1,16 @@
+body {
+  font-size: var(--fluid-0);
+  font-family: var(--font-transitional);
+  margin: auto;
+  max-width: 1280px;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-monospace-slabserif);
+  text-transform: lowercase;
+
+}
+
+a, h1 a, h2 a, h3 a, h4 a, nav a {
+  color: canvastext;
+}
