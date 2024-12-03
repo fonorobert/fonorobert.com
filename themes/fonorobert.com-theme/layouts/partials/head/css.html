@@ -1,5 +1,6 @@
 {{ $utopia := resources.Get "css/utopia.css" | fingerprint }}
 {{ $typo := resources.Get "css/typo.css" | fingerprint }}
+{{ $lightbox := resources.Get "css/lightbox.css" | fingerprint }}
 {{ $main := resources.Get "css/main.css" | fingerprint }}
-{{ $styles := slice $utopia $typo $main | resources.Concat "styles.css" | minify | fingerprint }}
+{{ $styles := slice $utopia $typo $lightbox $main | resources.Concat "styles.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}"></link>

@@ -1,0 +1,44 @@
+<section class="gallery" id="gallery-{{ .Get 0 }}">
+{{ range $index, $param := .Params }}
+    {{ if not (eq $index 0) }}
+        {{ $arg := split $param ":::" }}
+        {{ $src := index $arg 0 }}
+        {{ $caption := index $arg 1 }}
+            
+        
+            <figure class="item">
+                <a href="#image-{{ $index }}">
+                    <img src="{{$src}}">
+                </a>
+                {{ if $caption }}
+                <figcaption>{{$caption}}</figcaption>
+                {{ end }}
+            </figure>
+    {{ end }}
+
+{{/*  <figure>
+    <img src="{{$src}}">
+    {{ if $caption }}
+    <figcaption>{{$caption}}</figcaption>
+    {{ end }}
+</figure>  */}}
+ 
+{{ end }}
+</section>
+
+<div class="lightboxes">
+    {{ range $index, $param := .Params }}
+        {{ if not (eq $index 0) }}
+            {{ $arg := split $param ":::" }}
+            {{ $src := index $arg 0 }}
+            {{ $caption := index $arg 1 }}
+            <div class="lightbox" id="image-{{ $index }}">
+                <a href="#" class="close">&times;</a>
+                <figure class="content">
+                    <img src="{{$src}}" />
+                    <figcaption>{{$caption}}</figcaption>
+                </figure>
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
