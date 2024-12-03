@@ -1,3 +1,5 @@
+{{ $params := .Params }}
+{{ $paramslen := len $params }}
 <section class="gallery" id="gallery-{{ .Get 0 }}">
 {{ range $index, $param := .Params }}
     {{ if not (eq $index 0) }}
@@ -32,12 +34,20 @@
             {{ $arg := split $param ":::" }}
             {{ $src := index $arg 0 }}
             {{ $caption := index $arg 1 }}
+            {{ $prev := sub $index 1 }}
+            {{ $next := add $index 1 }}
             <div class="lightbox" id="image-{{ $index }}">
+                {{ if not (eq $prev 0)}}
+                    <a href="#image-{{ $prev }}"><</a>
+                {{end}}
                 <a href="#" class="close">&times;</a>
                 <figure class="content">
                     <img src="{{$src}}" />
                     <figcaption>{{$caption}}</figcaption>
                 </figure>
+                {{ if not (ge $next $paramslen ) }}
+                    <a href="#image-{{ $next }}">></a>
+                {{ end }}
             </div>
         {{ end }}
     {{ end }}
