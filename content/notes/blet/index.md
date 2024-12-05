@@ -5,6 +5,10 @@ draft = false
 +++
 
 {{< gallery "first-test"
-"2411128-robi-pinemonster-4.jpg:::An image shown, with a caption" 
-"2411128-robi-pinemonster-4.jpg:::An image shown, with a different caption" 
+"/images/2411128-robi-pinemonster-4.jpg:::An image shown, with a caption" 
+"/images/2411128-robi-pinemonster-4.jpg:::An image shown, with a different caption"
+"/images/2411128-robi-pinemonster-4.jpg:::An image shown, with a different caption"
+"/images/2411128-robi-pinemonster-4.jpg:::An image shown, with a different caption"
+"/images/2411128-robi-pinemonster-4.jpg:::An image shown, with a different caption"
+"/images/2411128-robi-pinemonster-4.jpg:::An image shown, with a different caption" 
 >}}

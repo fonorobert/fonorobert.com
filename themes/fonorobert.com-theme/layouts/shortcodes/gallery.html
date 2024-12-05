@@ -17,13 +17,6 @@
                 {{ end }}
             </figure>
     {{ end }}
-
-{{/*  <figure>
-    <img src="{{$src}}">
-    {{ if $caption }}
-    <figcaption>{{$caption}}</figcaption>
-    {{ end }}
-</figure>  */}}
  
 {{ end }}
 </section>
@@ -38,7 +31,7 @@
             {{ $next := add $index 1 }}
             <div class="lightbox" id="image-{{ $index }}">
                 {{ if not (eq $prev 0)}}
-                    <a href="#image-{{ $prev }}"><</a>
+                    <a href="#image-{{ $prev }}" class="prev"><</a>
                 {{end}}
                 <a href="#" class="close">&times;</a>
                 <figure class="content">
@@ -46,7 +39,7 @@
                     <figcaption>{{$caption}}</figcaption>
                 </figure>
                 {{ if not (ge $next $paramslen ) }}
-                    <a href="#image-{{ $next }}">></a>
+                    <a href="#image-{{ $next }}" class="next">></a>
                 {{ end }}
             </div>
         {{ end }}
