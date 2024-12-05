@@ -54,8 +54,7 @@
   display: block;
   margin: auto;
   max-height: 90vh;
-  width: 100%;
-  max-width: 1920px;
+  max-width: 90vw;
 }
 
 .lightbox .close, .lightbox .next, .lightbox .prev {
