@@ -17,11 +17,19 @@ a, h1 a, h2 a, h3 a, h4 a, nav a {
 
 /* Log list */
 
-article h2.log-title {
-  text-decoration: none;
+h2.log-title {
   font-size: var(--fluid-0);
 }
-article h2.log-title:before {
+
+h2.log-title a {
+  text-decoration: none;
+}
+
+h2.log-title a:hover {
+  text-decoration: underline;
+}
+
+h2.log-title:before {
   display: inline;
   content: "#";
 }
