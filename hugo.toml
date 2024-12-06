@@ -4,10 +4,6 @@ title = 'Robert Fono'
 theme = 'fonorobert.com-theme'
 [menus]
   [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-  [[menus.main]]
     name = 'Notes'
     pageRef = '/notes'
     weight = 20

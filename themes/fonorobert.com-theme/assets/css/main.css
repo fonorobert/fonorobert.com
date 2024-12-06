@@ -5,7 +5,7 @@ body {
   max-width: 1280px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, nav {
   font-family: var(--font-monospace-slabserif);
   text-transform: lowercase;
 
@@ -32,4 +32,33 @@ h2.log-title a:hover {
 h2.log-title:before {
   display: inline;
   content: "#";
+}
+
+/* Header and menu */
+
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  margin-left: auto;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  text-transform: lowercase;
+}
+
+nav ul li {
+  margin-right: var(--fluid-0);
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
