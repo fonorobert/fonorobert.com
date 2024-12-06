@@ -18,7 +18,7 @@ a, h1 a, h2 a, h3 a, h4 a, nav a {
 /* Log list */
 
 h2.log-title {
-  font-size: var(--fluid-1);
+  font-size: var(--fluid-0);
 }
 
 h2.log-title a {
@@ -32,6 +32,14 @@ h2.log-title a:hover {
 h2.log-title:before {
   display: inline;
   content: "#";
+}
+
+content.log {
+  display: block;
+  max-width: 720px;
+  margin: auto;
+  text-align: justify;
+  font-family: var(--font-monospace-slabserif);
 }
 
 /* Header and menu */
