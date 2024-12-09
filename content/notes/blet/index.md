@@ -1,6 +1,7 @@
 +++
 title = 'Blet'
 date = 2024-12-03T11:29:00+01:00
+summary = "A short thing that's not long about a story. Some pictures included."
 draft = false
 +++
 
