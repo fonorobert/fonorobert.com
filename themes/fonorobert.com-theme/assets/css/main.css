@@ -15,32 +15,6 @@ a, h1 a, h2 a, h3 a, h4 a, nav a {
   color: canvastext;
 }
 
-/* Log list */
-
-h2.log-title {
-  font-size: var(--fluid-0);
-}
-
-h2.log-title a {
-  text-decoration: none;
-}
-
-h2.log-title a:hover {
-  text-decoration: underline;
-}
-
-h2.log-title:before {
-  display: inline;
-  content: "#";
-}
-
-content.log {
-  display: block;
-  max-width: 720px;
-  margin: auto;
-  text-align: justify;
-  font-family: var(--font-monospace-slabserif);
-}
 
 /* Header and menu */
 
@@ -70,3 +44,44 @@ header a {
 header a:hover {
   text-decoration: underline;
 }
+
+/* Log list */
+
+h2.log-title {
+  font-size: var(--fluid-0);
+}
+
+h2.log-title a {
+  text-decoration: none;
+}
+
+h2.log-title a:hover {
+  text-decoration: underline;
+}
+
+h2.log-title:before {
+  display: inline;
+  content: "#";
+}
+
+content.log {
+  display: block;
+  max-width: 720px;
+  margin: auto;
+  text-align: justify;
+  font-family: var(--font-monospace-slabserif);
+}
+
+/* Stories list */
+
+content.stories {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-image img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
