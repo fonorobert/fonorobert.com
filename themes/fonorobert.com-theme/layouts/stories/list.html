@@ -10,7 +10,9 @@
       <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
       {{if isset .Params "featured_image" }}
         <figure class="featured-image">
-          <img src='/images/{{ index .Params "featured_image" }}'>
+          <a href="{{ .RelPermalink }}">
+            <img src='/images/{{ index .Params "featured_image" }}'>
+          </a>
         </figure>
       {{ end }}
     </article>
