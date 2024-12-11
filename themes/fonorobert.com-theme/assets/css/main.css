@@ -8,8 +8,12 @@ body {
 h1, h2, h3, nav {
   font-family: var(--font-monospace-slabserif);
   text-transform: lowercase;
-
 }
+
+h1, h2 {
+  margin: .3em 0;
+}
+
 
 a, h1 a, h2 a, h3 a, h4 a, nav a {
   color: canvastext;
@@ -99,6 +103,7 @@ figure.featured-image {
 }
 .featured-image img {
   width: 100%;
+  aspect-ratio: 16/9;
   object-fit: cover;
 }
 
