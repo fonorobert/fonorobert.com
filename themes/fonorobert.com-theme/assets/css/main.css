@@ -15,6 +15,10 @@ a, h1 a, h2 a, h3 a, h4 a, nav a {
   color: canvastext;
 }
 
+time {
+  font-family: var(--font-monospace);
+  font-size: var(--fluid--1);
+}
 
 /* Header and menu */
 
