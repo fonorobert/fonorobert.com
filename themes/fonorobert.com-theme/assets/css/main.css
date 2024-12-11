@@ -89,6 +89,10 @@ content.stories article {
   max-width: 400px;
 }
 
+content.stories h2 a {
+  text-decoration: none;
+}
+
 figure.featured-image {
   padding: 0;
   margin: 0;
