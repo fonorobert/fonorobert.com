@@ -63,7 +63,7 @@
   width: 1em;
   z-index: 1001;
   color: #fff;
-  font-size: var(--fluid-3);
+  font-size: var(--step-3);
   font-weight: bold;
   text-decoration: none;
 }
@@ -84,5 +84,5 @@
 
 .lightbox figcaption {
   color: #fff;
-  font-size: var(--fluid-0);
+  font-size: var(--step-0);
 }

@@ -15,3 +15,27 @@
     --font-antique: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
     --font-didone: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
 }
+
+/*  Utopia CSS type scaling system 
+    https://utopia.fyi
+*/
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1440,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+    /* Step -2: 11.1111px → 12.8px */
+    --step--2: clamp(0.6944rem, 0.6643rem + 0.1508vw, 0.8rem);
+    /* Step -1: 13.3333px → 16px */
+    --step--1: clamp(0.8333rem, 0.7857rem + 0.2381vw, 1rem);
+    /* Step 0: 16px → 20px */
+    --step-0: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+    /* Step 1: 19.2px → 25px */
+    --step-1: clamp(1.2rem, 1.0964rem + 0.5179vw, 1.5625rem);
+    /* Step 2: 23.04px → 31.25px */
+    --step-2: clamp(1.44rem, 1.2934rem + 0.733vw, 1.9531rem);
+    /* Step 3: 27.648px → 39.0625px */
+    --step-3: clamp(1.728rem, 1.5242rem + 1.0192vw, 2.4414rem);
+    /* Step 4: 33.1776px → 48.8281px */
+    --step-4: clamp(2.0736rem, 1.7941rem + 1.3974vw, 3.0518rem);
+    /* Step 5: 39.8131px → 61.0352px */
+    --step-5: clamp(2.4883rem, 2.1094rem + 1.8948vw, 3.8147rem);
+}
