@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 a, h1 a, h2 a, h3 a, h4 a, nav a {
-  color: canvastext;
+  color: var(--color-primary);
 }
 
 time {
