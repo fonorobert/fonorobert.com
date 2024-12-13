@@ -12,16 +12,16 @@
         {{ $src := (print "/images/" (index $arg 0)) }}
         {{ $caption := index $arg 1 }}
         {{ $image := resources.Get $src }}
-        {{ $imagesize := site.Params.imagesizes.thumb }}
-        {{ $image := $image.Fit $imagesize }}
+        {{ $thumbnail := $image.Fit site.Params.imagesizes.thumb }}
+        {{ $fullsize := $image.Fit site.Params.imagesizes.full }}
             
         
             <figure class="item">
-                <a href="#image-{{ $index }}">
-                    <img src="{{ $image.RelPermalink }}">
+                <a href="{{ $fullsize.RelPermalink }}">
+                    <img src="{{ $thumbnail.RelPermalink }}" title="{{ $caption }}">
                 </a>
                 {{ if $caption }}
-                <figcaption>{{$caption}}</figcaption>
+                <figcaption>{{ $caption }}</figcaption>
                 {{ end }}
             </figure>
     {{ end }}
@@ -29,32 +29,19 @@
 {{ end }}
 </section>
 
-<div class="lightboxes">
-    {{ range $index, $param := .Params }}
-        {{ if not (le $index 1) }}
-            {{ $arg := split $param $delim }}
-            {{ $src := (print "/images/" (index $arg 0)) }}
-            {{ $caption := index $arg 1 }}
 
-            {{ $image := resources.Get $src }}
-            {{ $imagesize := site.Params.imagesizes.full }}
-            {{ $image := $image.Fit $imagesize }}
-
-            {{ $prev := sub $index 1 }}
-            {{ $next := add $index 1 }}
-            <div class="lightbox" id="image-{{ $index }}">
-                {{ if not (le $prev 1)}}
-                    <a href="#image-{{ $prev }}" class="prev"><</a>
-                {{end}}
-                <a href="#" class="close">&times;</a>
-                <figure class="content">
-                    <img src="{{ $image.RelPermalink }}" />
-                    <figcaption>{{$caption}}</figcaption>
-                </figure>
-                {{ if not (ge $next $paramslen ) }}
-                    <a href="#image-{{ $next }}" class="next">></a>
-                {{ end }}
-            </div>
-        {{ end }}
-    {{ end }}
-</div>
+<script type="text/javascript" src="/js/simplelightbox/simple-lightbox.js">
+</script>
+<script type="text/javascript">
+    var lightbox = new SimpleLightbox('#gallery-{{ .Get 0 }} a', { 
+        animationSpeed: 125,
+        fadeSpeed: 125,
+        animationSlide: false,
+        loop: false,
+        scrollZoom: false,
+        uniqueImages: false,
+        captionPosition: "bottom",
+        overlayOpacity: 0.95,
+        heightRatio: 0.95
+    });
+</script>

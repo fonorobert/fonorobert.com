@@ -128,3 +128,37 @@ figure.featured-image {
   aspect-ratio: 1/1;
   object-fit: cover;
 }
+
+/* Gallery */
+
+.gallery {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.gallery figure {
+  max-width: 600px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+
+.gallery.full-width figure {
+  max-width: 100%;
+}
+
+.gallery a {
+  cursor: zoom-in;
+  transition: filter 0.2s ease-in-out;
+}
+
+.gallery a:hover {
+  filter: brightness(90%);
+}
+
+.gallery img {
+  width: 100%;
+}

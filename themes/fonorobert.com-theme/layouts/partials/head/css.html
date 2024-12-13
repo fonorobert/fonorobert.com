@@ -2,6 +2,7 @@
 {{ $typo := resources.Get "css/typo.css" | fingerprint }}
 {{ $space := resources.Get "css/space.css" | fingerprint }}
 {{ $lightbox := resources.Get "css/lightbox.css" | fingerprint }}
+{{ $simplelightbox := resources.Get "css/simplelightbox/simple-lightbox.css" | fingerprint }}
 {{ $main := resources.Get "css/main.css" | fingerprint }}
-{{ $styles := slice $color $typo $space $lightbox $main | resources.Concat "styles.css" | minify | fingerprint }}
+{{ $styles := slice $color $typo $space $simplelightbox $main | resources.Concat "styles.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}"></link>
