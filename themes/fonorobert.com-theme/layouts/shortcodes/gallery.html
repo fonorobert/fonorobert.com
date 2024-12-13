@@ -9,7 +9,7 @@
 {{ range $index, $param := .Params }}
     {{ if not (le $index 1) }}
         {{ $arg := split $param $delim }}
-        {{ $src := index $arg 0 }}
+        {{ $src := (print "/images/" (index $arg 0)) }}
         {{ $caption := index $arg 1 }}
         {{ $image := resources.Get $src }}
         {{ $imagesize := site.Params.imagesizes.thumb }}
@@ -33,7 +33,7 @@
     {{ range $index, $param := .Params }}
         {{ if not (le $index 1) }}
             {{ $arg := split $param $delim }}
-            {{ $src := index $arg 0 }}
+            {{ $src := (print "/images/" (index $arg 0)) }}
             {{ $caption := index $arg 1 }}
 
             {{ $image := resources.Get $src }}
