@@ -18,5 +18,5 @@ theme = 'fonorobert.com-theme'
 [params]
   [params.imagesizes]
     thumb = '600x600'
-    full = '1280x1280'
+    full = '1920x1920'
     feat = '400x400'
