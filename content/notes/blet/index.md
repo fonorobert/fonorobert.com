@@ -6,10 +6,10 @@ draft = false
 +++
 
 {{< gallery "first-test" "grid"
-"/images/2411128-robi-pinemonster-4.jpg :: 1 An image shown, with a caption" 
-"/images/2411128-robi-pinemonster-4.jpg :: 2 An image shown, with a different caption"
-"/images/2411128-robi-pinemonster-4.jpg :: 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption"
-"/images/2411128-robi-pinemonster-4.jpg :: 4 An image shown, with a different caption"
-"/images/2411128-robi-pinemonster-4.jpg :: 5 An image shown, with a different caption"
-"/images/2411128-robi-pinemonster-4.jpg :: 6 An image shown, with a different caption" 
+"2411128-robi-pinemonster-4.jpg :: 1 An image shown, with a caption" 
+"2411128-robi-pinemonster-4.jpg :: 2 An image shown, with a different caption"
+"2411128-robi-pinemonster-4.jpg :: 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption. 3 An image shown, with a different caption"
+"2411128-robi-pinemonster-4.jpg :: 4 An image shown, with a different caption"
+"2411128-robi-pinemonster-4.jpg :: 5 An image shown, with a different caption"
+"2411128-robi-pinemonster-4.jpg :: 6 An image shown, with a different caption" 
 >}}
