@@ -11,7 +11,12 @@ theme = 'fonorobert.com-theme'
     name = 'Stories'
     pageRef = '/stories'
     weight = 10
-[[menus.main]]
+  [[menus.main]]
     name = 'Projects'
     pageRef = '/projects'
     weight = 30
+[params]
+  [params.imagesizes]
+    thumb = '600x600'
+    full = '1280x1280'
+    feat = '400x400'
