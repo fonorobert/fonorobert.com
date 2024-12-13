@@ -13,6 +13,7 @@
             <a href="{{ .RelPermalink }}">
               {{ $featuredimage :=  (print "/images/" (index .Params "featured_image")) }}
               {{ $image := resources.Get $featuredimage }}
+              {{ $image := $image.Fill "400x400" }}
               <img src='{{ $image.RelPermalink }}'>
             </a>
           </figure>
