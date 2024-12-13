@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main class="notes list">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
@@ -8,4 +9,5 @@
     <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
     <summary>{{ .Summary }}</summary>
   {{ end }}
+</main>
 {{ end }}
