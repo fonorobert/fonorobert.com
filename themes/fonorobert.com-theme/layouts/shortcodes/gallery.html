@@ -12,6 +12,7 @@
         {{ $src := index $arg 0 }}
         {{ $caption := index $arg 1 }}
         {{ $image := resources.Get $src }}
+        {{ $image := $image.Fit "600x600" }}
             
         
             <figure class="item">
@@ -33,7 +34,10 @@
             {{ $arg := split $param $delim }}
             {{ $src := index $arg 0 }}
             {{ $caption := index $arg 1 }}
+
             {{ $image := resources.Get $src }}
+            {{ $image := $image.Fit "1280x1280" }}
+
             {{ $prev := sub $index 1 }}
             {{ $next := add $index 1 }}
             <div class="lightbox" id="image-{{ $index }}">
