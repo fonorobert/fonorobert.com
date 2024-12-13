@@ -38,7 +38,7 @@
 
             {{ $image := resources.Get $src }}
             {{ $imagesize := site.Params.imagesizes.full }}
-            {{ $image := $image.Fit "1280x1280" }}
+            {{ $image := $image.Fit $imagesize }}
 
             {{ $prev := sub $index 1 }}
             {{ $next := add $index 1 }}
