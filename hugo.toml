@@ -6,16 +6,12 @@ theme = 'fonorobert.com-theme'
   [[menus.main]]
     name = 'Notes'
     pageRef = '/notes'
-    weight = 20
+    weight = 30
   [[menus.main]]
     name = 'Stories'
     pageRef = '/stories'
-    weight = 30
+    weight = 20
 [[menus.main]]
     name = 'Projects'
     pageRef = '/projects'
-    weight = 40
-[[menus.main]]
-    name = 'Log'
-    pageRef = '/log'
-    weight = 50
+    weight = 10

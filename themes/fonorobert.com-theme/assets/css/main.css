@@ -101,33 +101,6 @@ header a:hover {
   text-decoration: underline;
 }
 
-/* Log list */
-
-h2.log-title {
-  font-size: var(--step-0);
-}
-
-h2.log-title a {
-  text-decoration: none;
-}
-
-h2.log-title a:hover {
-  text-decoration: underline;
-}
-
-h2.log-title:before {
-  display: inline;
-  content: "#";
-}
-
-content.log {
-  display: block;
-  max-width: 720px;
-  margin: auto;
-  text-align: justify;
-  font-family: var(--font-monospace-slabserif);
-}
-
 /* Stories list */
 
 content.stories {
