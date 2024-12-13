@@ -11,7 +11,9 @@
         {{if isset .Params "featured_image" }}
           <figure class="featured-image">
             <a href="{{ .RelPermalink }}">
-              <img src='/images/{{ index .Params "featured_image" }}'>
+              {{ $featuredimage :=  (print "/images/" (index .Params "featured_image")) }}
+              {{ $image := resources.Get $featuredimage }}
+              <img src='{{ $image.RelPermalink }}'>
             </a>
           </figure>
           <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>

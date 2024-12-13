@@ -11,11 +11,12 @@
         {{ $arg := split $param $delim }}
         {{ $src := index $arg 0 }}
         {{ $caption := index $arg 1 }}
+        {{ $image := resources.Get $src }}
             
         
             <figure class="item">
                 <a href="#image-{{ $index }}">
-                    <img src="{{$src}}">
+                    <img src="{{ $image.RelPermalink }}">
                 </a>
                 {{ if $caption }}
                 <figcaption>{{$caption}}</figcaption>
@@ -32,6 +33,7 @@
             {{ $arg := split $param $delim }}
             {{ $src := index $arg 0 }}
             {{ $caption := index $arg 1 }}
+            {{ $image := resources.Get $src }}
             {{ $prev := sub $index 1 }}
             {{ $next := add $index 1 }}
             <div class="lightbox" id="image-{{ $index }}">
@@ -40,7 +42,7 @@
                 {{end}}
                 <a href="#" class="close">&times;</a>
                 <figure class="content">
-                    <img src="{{$src}}" />
+                    <img src="{{ $image.RelPermalink }}" />
                     <figcaption>{{$caption}}</figcaption>
                 </figure>
                 {{ if not (ge $next $paramslen ) }}
