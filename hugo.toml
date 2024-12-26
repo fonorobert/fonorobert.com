@@ -4,16 +4,16 @@ title = 'Robert Fonó'
 theme = 'fonorobert.com-theme'
 [menus]
   [[menus.main]]
-    name = 'Notes'
-    pageRef = '/notes'
-    weight = 20
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 10
   [[menus.main]]
     name = 'Stories'
     pageRef = '/stories'
-    weight = 10
+    weight = 20
   [[menus.main]]
-    name = 'Projects'
-    pageRef = '/projects'
+    name = 'Notes'
+    pageRef = '/notes'
     weight = 30
   [[menus.main]]
     name = 'About'
