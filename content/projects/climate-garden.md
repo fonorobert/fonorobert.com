@@ -1,5 +1,5 @@
 +++
-title = 'Pocket Forest'
+title = 'Climate Garden'
 date = 2024-12-26T22:15:00+01:00
 draft = false
 featured_image = "2024/24-klimakert/240528-aurora-12.jpg"
