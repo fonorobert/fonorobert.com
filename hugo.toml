@@ -1,6 +1,6 @@
 baseURL = 'http://dev.fonorobert.com/'
 languageCode = 'en-us'
-title = 'Robert Fono'
+title = 'Robert Fonó'
 theme = 'fonorobert.com-theme'
 [menus]
   [[menus.main]]
@@ -15,6 +15,10 @@ theme = 'fonorobert.com-theme'
     name = 'Projects'
     pageRef = '/projects'
     weight = 30
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 40
 [params]
   [params.imagesizes]
     thumb = '600x600'
