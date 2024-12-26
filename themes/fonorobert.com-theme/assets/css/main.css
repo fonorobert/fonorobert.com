@@ -79,14 +79,16 @@ header {
     color: var(--color-accent);
 }
 
-nav {
+nav ul {
+  list-style-type: none;
+  text-transform: lowercase;
+}
+header nav {
   margin-left: auto;
   font-size: var(--step-1);
 }
-nav ul {
+header nav ul {
   display: flex;
-  list-style-type: none;
-  text-transform: lowercase;
 }
 
 nav ul li {
@@ -99,6 +101,17 @@ header a {
 
 header a:hover {
   text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer nav {
+  font-size: var(--step-0);
 }
 
 /* Stories list */

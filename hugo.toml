@@ -19,6 +19,18 @@ theme = 'fonorobert.com-theme'
     name = 'About'
     pageRef = '/about'
     weight = 40
+  [[menus.footer]]
+    name = 'Now'
+    pageRef = '/now'
+    weight = 10
+  [[menus.footer]]
+    name = 'Instagram'
+    url = 'https://instagram.com/fonorobert'
+    weight = 20
+  [[menus.footer]]
+    name = 'Log'
+    url = 'https://fono.day'
+    weight = 30
 [params]
   [params.imagesizes]
     thumb = '600x600'
