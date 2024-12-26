@@ -58,6 +58,21 @@ time.highlighted.banner {
   font-size: var(--step-0);
 }
 
+a.external::after {
+  content: "︎↗";
+}
+
+a[href^="http"]:where(:not([href*="fonorobert.com/"]))::after {
+  content: "︎↗";
+}
+nav a::after {
+  content: "" !important;
+}
+
+img a::after{
+    content: "" !important;
+}
+
 /* Header and menu */
 
 header {

@@ -5,3 +5,5 @@ draft = false
 +++
 
 Robert Fonó is a Budapest, Hungary based photographer. He is a member of the Hungarian Association of Journalists (MÚOSZ).
+
+You can find his Instagram [@fonorobert](https://instagram.com/fonorobert).
