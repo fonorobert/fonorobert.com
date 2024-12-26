@@ -4,8 +4,8 @@
   display: flex;
   max-width: 100%;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .gallery figure {
