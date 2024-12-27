@@ -12,7 +12,7 @@ In place of planned planting and pruning, Mark focuses on improving the soil and
 My project aims to document the operation and methods of the Climate Garden, as well as its impact on its immediate environment. Starting in spring 2024 I plan to document a complete season of the garden, its development, the work of its caretakers and the change of the seasons in this miniature urban forest. Through this project I want to explore the possibilities the Climate Garden presents as a template for climate action combatting urban heating.
 
 
-{{< gallery "gallery-1" "grid"
+{{< gallery "gallery-1"
 "2024/24-klimakert/240527-aurora-kulso-27.jpg ::  "
 "2024/24-klimakert/240528-aurora-144.jpg ::  "
 "2024/24-klimakert/240528-aurora-252.jpg ::  "

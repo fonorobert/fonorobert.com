@@ -9,7 +9,7 @@ Lisbon is, as all tourist destinations, covered in a shroud of tourist attractio
 I can’t claim to have a true accounting of Lisbon, nor an analysis of the tension between its “real” and “fake” faces. Instead, this is a subjective look at Lisbon’s human and visual rythms, as viewed from a personal perspective.
 Ultimately, all I have is the feeling I sit with and nurture on the flight back home.
 
-{{< gallery "lisbon-1" "grid"
+{{< gallery "lisbon-1"
 "2024/2404-lisbon/2404-lisbon-1.jpg :: 1 An image shown, with a caption"
 "2024/2404-lisbon/2404-lisbon-2.jpg :: 2 An image shown, with a caption" 
 "2024/2404-lisbon/2404-lisbon-3.jpg :: 3 An image shown, with a caption"

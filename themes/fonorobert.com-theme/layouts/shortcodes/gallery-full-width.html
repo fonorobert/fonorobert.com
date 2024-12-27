@@ -3,7 +3,7 @@
 
 {{ $delim := " :: "}}
  
-<section class="gallery" id="gallery-{{ .Get 0 }}">
+<section class="gallery full-width" id="gallery-{{ .Get 0 }}">
 {{ range $index, $param := .Params }}
     {{ if not (le $index 0) }}
         {{ $arg := split $param $delim }}
@@ -16,7 +16,7 @@
         
             <figure class="item">
                 <a href="{{ $fullsize.RelPermalink }}">
-                    <img src="{{ $thumbnail.RelPermalink }}" title="{{ $caption }}">
+                    <img src="{{ $fullsize.RelPermalink }}" title="{{ $caption }}">
                 </a>
                 {{ if $caption }}
                 <figcaption>{{ $caption }}</figcaption>
