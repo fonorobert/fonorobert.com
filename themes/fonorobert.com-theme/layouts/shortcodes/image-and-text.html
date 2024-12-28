@@ -1,0 +1,11 @@
+{{ $src := (print "/images/" (index .Params 1))}}
+{{ $image := resources.Get $src }}
+{{ $thumbnail := $image.Fit site.Params.imagesizes.thumb }}
+{{ $fullsize := $image.Fit site.Params.imagesizes.full }}
+
+<section class="image-and-text">
+    <figure>
+        <img src="{{ $fullsize.RelPermalink }}">
+    </figure>
+    <div>{{ .Inner | markdownify }}</div>
+</section>

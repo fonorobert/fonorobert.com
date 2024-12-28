@@ -137,6 +137,44 @@ footer nav {
   font-size: var(--step-0);
 }
 
+/* Image-and-text */
+
+.image-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-l);
+  width: 80%;
+  margin: auto;
+}
+
+.image-and-text figure {
+  flex: 1 1 30%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.image-and-text div {
+  flex: 1 1 60%;
+  max-width: 100%;
+}
+
+.image-and-text figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .image-and-text div, .image-and-text figure {
+    flex: 0 0 100%;
+  }
+
+  .image-and-text figure {
+    order: 20;
+  }
+}
+
 /* Stories list */
 
 main.stories.list .listcontainer {
