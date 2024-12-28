@@ -6,6 +6,6 @@ featured_image = ""
 duration = ""
 +++
 
-{{< gallery "gallery-1" "grid"
+{{< gallery "gallery-1"
 "IMAGE-PATH.jpg :: CAPTION"
 >}}
