@@ -3,7 +3,7 @@ Title = "home"
 +++
 
 {{< large >}}
-I am a Hungarian photographer. I make reality-based, subjective photography.
+I am a photographer and overall messy creative, based in Budapest, Hungary.
 {{< /large >}}
 
 {{< gallery-full-width "home-hero"
