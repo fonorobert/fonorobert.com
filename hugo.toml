@@ -11,10 +11,10 @@ theme = 'fonorobert.com-theme'
     name = 'Stories'
     pageRef = '/stories'
     weight = 20
-  [[menus.main]]
-    name = 'Notes'
-    pageRef = '/notes'
-    weight = 30
+  #[[menus.main]]
+  #  name = 'Notes'
+  #  pageRef = '/notes'
+  #  weight = 30
   [[menus.footer]]
     name = 'Contact'
     pageRef = '/contact'
