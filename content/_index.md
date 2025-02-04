@@ -6,9 +6,7 @@ Title = "home"
 I am a photographer and overall messy creative, based in Budapest, Hungary.
 {{< /large >}}
 
-{{< gallery-full-width "home-hero"
-"2024/2404-lisbon/2404-lisbon-6.jpg ::  "
->}}
+{{< figure src="/images/2024/2404-lisbon/2404-lisbon-6.jpg" width="100%" >}}
 
 ---
 
