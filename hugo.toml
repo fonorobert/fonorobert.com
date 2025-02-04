@@ -1,4 +1,4 @@
-baseURL = 'http://dev.fonorobert.com/'
+baseURL = 'https://fonorobert.com/'
 languageCode = 'en-us'
 title = 'Robert Fonó'
 theme = 'fonorobert.com-theme'
