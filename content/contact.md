@@ -6,7 +6,7 @@ draft = false
 
 {{< image-and-text "left" "glasses-crop.jpg" >}}
 
-Robert Fonó is a Budapest, Hungary based photographer. He is a member of the Hungarian Association of Journalists (MÚOSZ).
+Robert Fonó is a Budapest, Hungary based photographer. He is a member of the Association of Hungarian Journalists (MÚOSZ).
 
 [robert@fonorobert.com](mailto:robert@fonorobert.com)
 

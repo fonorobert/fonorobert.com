@@ -25,7 +25,7 @@ theme = 'fonorobert.com-theme'
     weight = 20
   [[menus.footer]]
     name = 'Now'
-    pageRef = '/now'
+    url = 'https://fono.day/now'
     weight = 30
   [[menus.footer]]
     name = 'Log'

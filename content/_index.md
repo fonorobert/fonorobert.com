@@ -16,6 +16,6 @@ You can contact me about projects, comissions or snapshots of cute dogs at [robe
 
 I have a portraiture portfolio [here](#).
 
-I am a member of the Hungarian Association of Journalists (MÚOSZ). Not sure how relevant that is, but I find it cool.
+I am a member of the Association of Hungarian Journalists (MÚOSZ). Not sure how relevant that is, but I find it cool.
 
 I keep a semi-regular log at [fono.day](https://fono.day).
