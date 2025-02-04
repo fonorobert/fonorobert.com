@@ -8,6 +8,7 @@ body {
   margin: auto;
   max-width: 1280px;
   padding: 0 .4em;
+  padding-left: .6em;
 }
 
 h1, h2, h3, nav {
