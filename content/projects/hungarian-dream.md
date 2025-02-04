@@ -2,7 +2,7 @@
 title = 'Hungarian Dream'
 date = 2023-12-28T21:02:16+01:00
 draft = false
-featured_image = "2024/24-magyar-alom/240406-magyarpeter-tunti-187.jpg"
+featured_image = "2024/24-magyar-alom/FonoRobert-ParallelMagyarorszag-5.jpg"
 duration = "2023-"
 +++
 
