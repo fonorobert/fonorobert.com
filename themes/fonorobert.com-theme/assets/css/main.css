@@ -204,7 +204,17 @@ figure.featured-image {
   object-fit: cover;
 }
 
-/* Notes list */
+/* List titles */
+
+main.list article h2 a {
+  text-decoration: none;
+}
+
+main.list article h2:hover a {
+  text-decoration: underline;
+}
+
+/* Notes list - unused!
 
 main.notes.list article p {
   margin-top: 0;
@@ -212,4 +222,4 @@ main.notes.list article p {
 
 main.notes.list article h2 {
   margin-bottom: 0;
-}
+} */
