@@ -68,12 +68,12 @@ time.highlighted.banner {
 
 a.external::after {
   font-family: var(--font-neogrotesque);
-  content: "︎↗";
+  content: "\2197\FE0E";
 }
 
 a[href^="http"]:where(:not([href*="fonorobert.com/"]))::after {
   font-family: var(--font-neogrotesque);
-  content: "︎↗";
+  content: "︎\2197\FE0E";
 }
 nav a::after {
   content: "" !important;
