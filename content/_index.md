@@ -14,7 +14,7 @@ I am a photographer and overall messy creative, based in Budapest, Hungary.
 
 You can contact me about projects, comissions or snapshots of cute dogs at [robert@fonorobert.com](mailto:robert@fonorobert.com).
 
-I have a portraiture portfolio [here](#).
+I have a portraiture portfolio [here](/portrait).
 
 I am a member of the Association of Hungarian Journalists (MÚOSZ). Not sure how relevant that is, but I find it cool.
 
