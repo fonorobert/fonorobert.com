@@ -215,7 +215,7 @@ main.list article h2 a:hover {
   text-decoration: underline;
 }
 
-/* Notes list - unused!
+/* Notes list - unused! */
 
 main.notes.list article p {
   margin-top: 0;
@@ -223,4 +223,4 @@ main.notes.list article p {
 
 main.notes.list article h2 {
   margin-bottom: 0;
-} */
+}
