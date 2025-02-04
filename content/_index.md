@@ -12,10 +12,9 @@ I am a photographer and overall messy creative, based in Budapest, Hungary.
 
 ---
 
-You can contact me about projects, comissions or snapshots of cute dogs at [robert@fonorobert.com](mailto:robert@fonorobert.com).
+You can **contact** me about projects, comissions or snapshots of cute dogs at [robert@fonorobert.com](mailto:robert@fonorobert.com).
 
-I have a portraiture portfolio [here](/portrait).
+Work **portfolios**? Well of course I have them!  
+One for [portraiture](/portrait) and another for [family/wedding](/family) work.
 
-I am a member of the Association of Hungarian Journalists (MÚOSZ). Not sure how relevant that is, but I find it cool.
-
-I keep a semi-regular log at [fono.day](https://fono.day).
+I keep a semi-regular **log** at [fono.day](https://fono.day).
